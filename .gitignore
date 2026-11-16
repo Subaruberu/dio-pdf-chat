@@ -1,0 +1,17 @@
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Segredos
+.env
+
+# Índice e uploads gerados em tempo de execução
+data/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml

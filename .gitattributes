@@ -1,0 +1,6 @@
+# Normaliza finais de linha (evita diffs gigantes no Windows)
+* text=auto eol=lf
+
+*.pdf binary
+*.png binary
+*.jpg binary

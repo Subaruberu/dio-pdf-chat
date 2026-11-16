@@ -1,0 +1,22 @@
+Anotações para o TCC — sentenças de teste para o PDF Chat
+=========================================================
+
+Tema provisório: apoio de IA generativa à revisão de literatura em Engenharia de Software.
+
+1. A revisão sistemática de literatura é uma etapa obrigatória em trabalhos de conclusão de curso.
+2. O estudante precisa comparar métodos, resultados e limitações de artigos com vocabulários diferentes.
+3. A técnica de Recuperação Aumentada por Geração, ou RAG, combina busca em documentos com modelos de linguagem.
+4. Na etapa de indexação, cada página do PDF é dividida em trechos de aproximadamente 900 caracteres.
+5. A sobreposição entre trechos evita a perda de contexto nas fronteiras do texto.
+6. Embeddings transformam trechos de texto em vetores numéricos que representam significado.
+7. A similaridade de cosseno mede o quão próximos dois vetores estão.
+8. O BM25 é uma função de ranking lexical que valoriza termos raros e exatos.
+9. A fusão híbrida por Reciprocal Rank Fusion combina a busca vetorial com a busca lexical.
+10. Citar a fonte e a página reduz o risco de alucinação e aumenta a confiabilidade da resposta.
+11. PDFs escaneados sem camada de texto exigem OCR antes de serem indexados.
+12. Tabelas e figuras costumam ser mal extraídas por bibliotecas de leitura de PDF.
+
+Perguntas que este documento deveria responder:
+- Qual é o tamanho recomendado dos trechos (chunks)?
+- Por que usar busca híbrida em vez de apenas embeddings?
+- O que fazer com PDFs escaneados?
